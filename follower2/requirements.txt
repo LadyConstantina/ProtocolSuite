@@ -1,0 +1,6 @@
+flask==1.1.4
+flask_sqlalchemy==2.5.1
+flask_script==2.0.6
+flask_migrate==3.0.0
+requests==2.27.1
+markupsafe==2.0.1
