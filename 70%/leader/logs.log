@@ -1,0 +1,183 @@
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+ * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+http://127.0.0.1:4000 "GET /heartbeat HTTP/1.1" 200 72
+ * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+127.0.0.1 - - [19/Nov/2022 13:59:12] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 13:59:12] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 13:59:28] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 13:59:29] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+ * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+127.0.0.1 - - [19/Nov/2022 14:03:05] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 14:03:05] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 14:03:21] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 14:03:23] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+ * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+127.0.0.1 - - [19/Nov/2022 15:07:08] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:07:09] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:07:24] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:07:26] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "POST /application HTTP/1.1" 200 74
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "POST /application HTTP/1.1" 200 74
+Exception on /application [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\win32com\client\dynamic.py", line 86, in _GetGoodDispatch
+    IDispatch = pythoncom.connect(IDispatch)
+pywintypes.com_error: (-2147221008, 'CoInitialize has not been called.', None, None)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 66, in POST_Application
+    resp, status_code = Manager.add_element(request.json)
+  File "C:\Users\User\Downloads\TINA_PR3_LAB-main\TINA_PR3_LAB-main\TINA_PR_3LAB_RAFT\leader\services\ServiceManager.py", line 56, in add_element
+    self.send_email("New Application",dic)
+  File "C:\Users\User\Downloads\TINA_PR3_LAB-main\TINA_PR3_LAB-main\TINA_PR_3LAB_RAFT\leader\services\ServiceManager.py", line 95, in send_email
+    outlook = win32.Dispatch('outlook.application')
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\win32com\client\__init__.py", line 117, in Dispatch
+    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch, userName, clsctx)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\win32com\client\dynamic.py", line 106, in _GetGoodDispatchAndUserName
+    return (_GetGoodDispatch(IDispatch, clsctx), userName)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\win32com\client\dynamic.py", line 89, in _GetGoodDispatch
+    IDispatch, None, clsctx, pythoncom.IID_IDispatch
+pywintypes.com_error: (-2147221008, 'CoInitialize has not been called.', None, None)
+127.0.0.1 - - [19/Nov/2022 15:07:28] "[35m[1mPOST /application HTTP/1.1[0m" 500 -
+127.0.0.1 - - [19/Nov/2022 15:07:41] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:07:42] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:07:58] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:08:00] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:08:15] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:08:16] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:08:32] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:08:33] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:08:48] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:08:49] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+ * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+127.0.0.1 - - [19/Nov/2022 15:11:37] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:11:37] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:11:54] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+127.0.0.1 - - [19/Nov/2022 15:11:55] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "POST /application HTTP/1.1" 200 74
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "POST /application HTTP/1.1" 200 74
+Exception on /application [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 66, in POST_Application
+    resp, status_code = Manager.add_element(request.json)
+  File "C:\Users\User\Downloads\TINA_PR3_LAB-main\TINA_PR3_LAB-main\TINA_PR_3LAB_RAFT\leader\services\ServiceManager.py", line 57, in add_element
+    self.send_email("New Application",dic)
+  File "C:\Users\User\Downloads\TINA_PR3_LAB-main\TINA_PR3_LAB-main\TINA_PR_3LAB_RAFT\leader\services\ServiceManager.py", line 97, in send_email
+    mail = outlook.CreateItem(0)
+  File "<COMObject outlook.application>", line 2, in CreateItem
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+127.0.0.1 - - [19/Nov/2022 15:11:57] "[35m[1mPOST /application HTTP/1.1[0m" 500 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "POST /application HTTP/1.1" 200 74
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "POST /application HTTP/1.1" 200 74
+Exception on /application [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 66, in POST_Application
+    resp, status_code = Manager.add_element(request.json)
+  File "C:\Users\User\Downloads\TINA_PR3_LAB-main\TINA_PR3_LAB-main\TINA_PR_3LAB_RAFT\leader\services\ServiceManager.py", line 57, in add_element
+    self.send_email("New Application",dic)
+  File "C:\Users\User\Downloads\TINA_PR3_LAB-main\TINA_PR3_LAB-main\TINA_PR_3LAB_RAFT\leader\services\ServiceManager.py", line 97, in send_email
+    mail = outlook.CreateItem(0)
+  File "<COMObject outlook.application>", line 2, in CreateItem
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+127.0.0.1 - - [19/Nov/2022 15:12:10] "[35m[1mPOST /application HTTP/1.1[0m" 500 -
+127.0.0.1 - - [19/Nov/2022 15:12:11] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:12:13] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:12:27] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:12:30] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:12:44] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:12:48] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:13:02] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:13:06] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:13:20] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:13:22] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:13:36] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:13:39] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "POST /application HTTP/1.1" 200 74
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "POST /application HTTP/1.1" 200 74
+127.0.0.1 - - [19/Nov/2022 15:13:52] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "02548cc2-680c-11ed-8744-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:13:53] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:13:56] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:14:10] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:14:12] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+ * Running on http://127.0.0.1:3000/ (Press CTRL+C to quit)
+http://127.0.0.1:4000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "GET /heartbeat HTTP/1.1" 200 72
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "68496e68-680c-11ed-81bb-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:16:42] "[37mPOST /application HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "6a474048-680c-11ed-8cf4-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:16:45] "[37mPOST /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "GET /heartbeat HTTP/1.1" 200 72

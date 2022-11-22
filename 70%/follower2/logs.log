@@ -1,0 +1,161 @@
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+http://127.0.0.1:4000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+127.0.0.1 - - [19/Nov/2022 13:59:46] "[37mGET /re-election HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "GET /re-election HTTP/1.1" 200 18
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "GET /re-election HTTP/1.1" 200 18
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "GET /re-election HTTP/1.1" 200 18
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "c84031b0-6801-11ed-8f06-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 14:00:38] "[37mPOST /application HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "c84031b0-6801-11ed-8f06-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 14:00:38] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 14:00:55] "[37mGET /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "GET /re-election HTTP/1.1" 200 18
+127.0.0.1 - - [19/Nov/2022 14:03:41] "[37mGET /re-election HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 14:03:41] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 14:03:58] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 14:04:15] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 14:04:31] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 14:04:48] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "1d8da79e-680b-11ed-8392-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:07:27] "[37mPOST /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "bdcead46-680b-11ed-a7c3-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:11:56] "[37mPOST /application HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "c5bf6674-680b-11ed-8d31-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:12:09] "[37mPOST /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "02548cc2-680c-11ed-8744-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:13:50] "[37mPOST /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+http://127.0.0.1:4000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "GET /heartbeat HTTP/1.1" 200 72
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "68496e68-680c-11ed-81bb-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:16:42] "[37mPOST /application HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "6a474048-680c-11ed-8cf4-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:16:45] "[37mPOST /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:4000
+http://127.0.0.1:4000 "GET /heartbeat HTTP/1.1" 200 72
