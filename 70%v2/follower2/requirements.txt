@@ -1,0 +1,3 @@
+flask==1.1.4
+requests==2.27.1
+markupsafe==2.0.1

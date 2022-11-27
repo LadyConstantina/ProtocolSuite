@@ -1,0 +1,1605 @@
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+127.0.0.1 - - [19/Nov/2022 13:58:06] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 13:58:06] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /re-election HTTP/1.1" 200 18
+127.0.0.1 - - [19/Nov/2022 13:59:47] "[37mGET /re-election HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 13:59:49] "[37mGET /re-election HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 13:59:51] "[37mGET /re-election HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "POST /application HTTP/1.1" 200 74
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "POST /application HTTP/1.1" 200 74
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "c84031b0-6801-11ed-8f06-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 14:00:38] "[37mPOST /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+127.0.0.1 - - [19/Nov/2022 14:03:40] "[37mGET /re-election HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /re-election HTTP/1.1" 200 18
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 3
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 3
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 3
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 3
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 3
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "1d8da79e-680b-11ed-8392-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:07:27] "[37mPOST /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "bdcead46-680b-11ed-a7c3-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:11:56] "[37mPOST /application HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "c5bf6674-680b-11ed-8d31-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:12:09] "[37mPOST /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "02548cc2-680c-11ed-8744-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:13:50] "[37mPOST /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+127.0.0.1 - - [19/Nov/2022 15:16:24] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:16:24] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:16:41] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+127.0.0.1 - - [19/Nov/2022 15:16:41] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "POST /application HTTP/1.1" 200 74
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "POST /application HTTP/1.1" 200 74
+Exception on /application [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 66, in POST_Application
+    resp, status_code = Manager.add_element(request.json)
+  File "C:\Users\User\Downloads\TINA_PR3_LAB-main\TINA_PR3_LAB-main\TINA_PR_3LAB_RAFT\follower1\services\ServiceManager.py", line 57, in add_element
+    self.send_email("New Application",dic)
+  File "C:\Users\User\Downloads\TINA_PR3_LAB-main\TINA_PR3_LAB-main\TINA_PR_3LAB_RAFT\follower1\services\ServiceManager.py", line 97, in send_email
+    mail = outlook.CreateItem(0)
+  File "<COMObject outlook.application>", line 2, in CreateItem
+pywintypes.com_error: (-2147418111, 'Call was rejected by callee.', None, None)
+127.0.0.1 - - [19/Nov/2022 15:16:43] "[35m[1mPOST /application HTTP/1.1[0m" 500 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "POST /application HTTP/1.1" 200 74
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "POST /application HTTP/1.1" 200 74
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "6a474048-680c-11ed-8cf4-34cff65b139a"}
+127.0.0.1 - - [19/Nov/2022 15:16:47] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:16:58] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [19/Nov/2022 15:16:58] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+server listening on 127.0.0.1:8765
+server listening on [::1]:8765
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: 1GRYZIWDvAfGMv8WW1btWQ==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.7 websockets/10.4
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: vgNuMNtgXcEpnCiAX0lfb+4cbg4=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Sun, 27 Nov 2022 08:20:25 GMT
+> Server: Python/3.7 websockets/10.4
+connection open
+= connection is OPEN
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+% sending keepalive ping
+> PING 75 06 fa af [binary, 4 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< PONG 75 06 fa af [binary, 4 bytes]
+% received keepalive pong
+< PING 1c 4a d4 71 [binary, 4 bytes]
+> PONG 1c 4a d4 71 [binary, 4 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+% sending keepalive ping
+> PING c9 06 3e c3 [binary, 4 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< PONG c9 06 3e c3 [binary, 4 bytes]
+% received keepalive pong
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< PING 45 50 1c 9f [binary, 4 bytes]
+> PONG 45 50 1c 9f [binary, 4 bytes]
+% sending keepalive ping
+> PING b1 41 2b 3f [binary, 4 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< PONG b1 41 2b 3f [binary, 4 bytes]
+% received keepalive pong
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+% sending keepalive ping
+> PING 3b ae 90 91 [binary, 4 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< PONG 3b ae 90 91 [binary, 4 bytes]
+< PING 88 6a 10 73 [binary, 4 bytes]
+> PONG 88 6a 10 73 [binary, 4 bytes]
+% received keepalive pong
+Exception on /application [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 68, in POST_Application
+    resp, status_code = Manager.add_element(request.json)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 113, in add_element
+    index = dic["index"]
+KeyError: 'index'
+127.0.0.1 - - [27/Nov/2022 10:22:25] "[35m[1mPOST /application HTTP/1.1[0m" 500 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "a5c1aac0-6e2c-11ed-9b63-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 10:22:35] "[37mPOST /application HTTP/1.1[0m" 200 -
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+% sending keepalive ping
+> PING ef 9f d3 df [binary, 4 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< PONG ef 9f d3 df [binary, 4 bytes]
+% received keepalive pong
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< PING 07 3a 2d fe [binary, 4 bytes]
+> PONG 07 3a 2d fe [binary, 4 bytes]
+% sending keepalive ping
+> PING 2f b1 a5 48 [binary, 4 bytes]
+< CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+x half-closing TCP connection
+= connection is CLOSED
+connection closed
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: U2FhwVjFq0zAUANS1ujkbw==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: rmoKxzk7hKF/MMZxGuT1OTJ0d1M=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 08:31:24 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "f2630df4-6e2d-11ed-8614-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 10:31:53] "[37mPOST /application HTTP/1.1[0m" 200 -
+> TEXT 'heartbeat' [9 bytes]
+< PING 91 14 91 c8 [binary, 4 bytes]
+> PONG 91 14 91 c8 [binary, 4 bytes]
+% sending keepalive ping
+> PING b0 e2 11 77 [binary, 4 bytes]
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+< PONG b0 e2 11 77 [binary, 4 bytes]
+% received keepalive pong
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: reArxKmWOAWMJksY22hKew==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: noKOr0HWq8C3eMc5Dh9mGBiouEI=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 08:35:03 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+% sending keepalive ping
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+server listening on 127.0.0.1:8765
+server listening on [::1]:8765
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: xl3ECTQJ3E2eXlcpqTt7Bg==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.7 websockets/10.4
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: z0qnDlASUrEkrbHxU/UXqKnAFVo=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Sun, 27 Nov 2022 08:42:27 GMT
+> Server: Python/3.7 websockets/10.4
+connection open
+= connection is OPEN
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: cFAxlPtCV74M5FEUibyBew==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.7 websockets/10.4
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: tlFk1Rfg6jv3CqcsbNfoi5sx2SA=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Sun, 27 Nov 2022 08:42:27 GMT
+> Server: Python/3.7 websockets/10.4
+connection open
+= connection is OPEN
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 570, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 538, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 1746, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\websock.py", line 14, in echo
+    async for message in websocket:
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\websockets\legacy\protocol.py", line 554, in recv
+    **loop_if_py_lt_38(self.loop),
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\tasks.py", line 389, in wait
+    return await _wait(fs, timeout, return_when, loop)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\tasks.py", line 482, in _wait
+    await waiter
+concurrent.futures._base.CancelledError
+! failing connection with code 1011
+= connection is CLOSING
+> CLOSE 1011 (unexpected error) [2 bytes]
+connection closed
+connection handler failed
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\runners.py", line 43, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 570, in run_until_complete
+    self.run_forever()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 538, in run_forever
+    self._run_once()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\base_events.py", line 1746, in _run_once
+    event_list = self._selector.select(timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\selectors.py", line 323, in select
+    r, w, _ = self._select(self._readers, self._writers, [], timeout)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\selectors.py", line 314, in _select
+    r, w, x = select.select(r, w, w, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\websockets\legacy\server.py", line 236, in handler
+    await self.ws_handler(self)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\websock.py", line 14, in echo
+    async for message in websocket:
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\websockets\legacy\protocol.py", line 497, in __aiter__
+    yield await self.recv()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\websockets\legacy\protocol.py", line 554, in recv
+    **loop_if_py_lt_38(self.loop),
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\tasks.py", line 389, in wait
+    return await _wait(fs, timeout, return_when, loop)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\asyncio\tasks.py", line 482, in _wait
+    await waiter
+concurrent.futures._base.CancelledError
+! failing connection with code 1011
+= connection is CLOSING
+> CLOSE 1011 (unexpected error) [2 bytes]
+connection closed
+= connection is CLOSED
+x half-closing TCP connection
+server closing
+x half-closing TCP connection
+= connection is CLOSED
+server closed
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: wGVszlvpsaWbuFV1Eheh/A==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: /cLuvsLmImC0GEKZwxzuPaVnTfw=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 08:57:48 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+% sending keepalive ping
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+server listening on [::1]:8765
+server listening on 127.0.0.1:8765
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: 5bQvza2bpRu8gVdYblRczA==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.7 websockets/10.4
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: UroSSFteX2deR+oP7Rio/Ak6NjQ=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Sun, 27 Nov 2022 09:00:43 GMT
+> Server: Python/3.7 websockets/10.4
+connection open
+= connection is OPEN
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: cF/VJ1Chi3TwbZFqFRx2PQ==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.7 websockets/10.4
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: ficpkeravAJ0Lt0Brch35sLhhMo=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Sun, 27 Nov 2022 09:00:43 GMT
+> Server: Python/3.7 websockets/10.4
+connection open
+= connection is OPEN
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: XysvhRXAxP94TQ5Vqcwp1w==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: +rEK/UitF0nSG3CcsRz2RpWXjMo=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 09:03:23 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+% sending keepalive ping
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: 4z+lQgo+KO0ShD2GiDZO1g==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: F6dIyjDCI96gYauM6Xf8qAbTtR4=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 09:06:24 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+> TEXT 'heartbeat' [9 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+% sending keepalive ping
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: 6ahuwgRJztBtOFHRzvRepA==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: R7h4Ja/5dLygdedxEtiU3nIQybU=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 09:12:45 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+< CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSED
+Using selector: SelectSelector
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: pUj3cHaYlqo/GCbXL6Gx7Q==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: TIoKedaTAvd5IiGF4VqMJwnkpe0=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 09:13:00 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: l8HunizjqZJwNQwz2MsczA==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: wNbm3DS/TVaLwGiCzD+pjU0anv4=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 09:20:36 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+< CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSED
+Using selector: SelectSelector
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: j5W29BXqLyOryuSjUHzPpw==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: O8XO4CnjEjWdIJAXjd0zym6SNcM=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 09:20:51 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: RVRQvqWQIGuu/b0J5iTjnA==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: 7ld2/XoapRfpuVKs9FZWWshrMaI=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 09:24:48 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+Using selector: SelectSelector
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+server listening on [::1]:8765
+server listening on 127.0.0.1:8765
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: 9BqehPhWfMoWPNQSJJ0Vdw==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.7 websockets/10.4
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: dzNJo9wticNK8Mly8B1gWsexshk=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Sun, 27 Nov 2022 09:26:35 GMT
+> Server: Python/3.7 websockets/10.4
+connection open
+= connection is OPEN
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: d3tu+ThQuhApYEvwDUzpcg==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.7 websockets/10.4
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: XEW86f4lL3Y+sVq+75gdLEEQvsk=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Sun, 27 Nov 2022 09:26:35 GMT
+> Server: Python/3.7 websockets/10.4
+connection open
+= connection is OPEN
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+server listening on 127.0.0.1:8765
+server listening on [::1]:8765
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: W9uKuqQzPoMS+ftmUXHivw==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.7 websockets/10.4
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: xQuwQH2sMh7Sq3OcxR43xBaxSg8=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Sun, 27 Nov 2022 09:30:16 GMT
+> Server: Python/3.7 websockets/10.4
+connection open
+= connection is OPEN
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+= connection is CONNECTING
+< GET / HTTP/1.1
+< Host: localhost:8765
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Key: 6AEYKBh0r2sjCFhfFZooKg==
+< Sec-WebSocket-Version: 13
+< Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+< User-Agent: Python/3.7 websockets/10.4
+> HTTP/1.1 101 Switching Protocols
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Accept: t7KIiqqtoxVFeGXszbl1xz50GyU=
+> Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+> Date: Sun, 27 Nov 2022 09:30:17 GMT
+> Server: Python/3.7 websockets/10.4
+connection open
+= connection is OPEN
+< TEXT 'heartbeat' [9 bytes]
+> TEXT 'confirm' [7 bytes]
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: Gdz6UqBUWasD0ykLCirDJg==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: k3LWzoQlbJSpmIsWZmIQX1xUDt8=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 09:33:40 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: qXc2t6uA0zlCT+rRj2qfvg==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: Kh/OL3NV1GzuNGYABczctjTVZuQ=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 09:36:47 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+= connection is CONNECTING
+> GET / HTTP/1.1
+> Host: localhost:8765
+> Upgrade: websocket
+> Connection: Upgrade
+> Sec-WebSocket-Key: 8SlVumzaXN2iiv7yOtvwxQ==
+> Sec-WebSocket-Version: 13
+> Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+> User-Agent: Python/3.7 websockets/10.4
+< HTTP/1.1 101 Switching Protocols
+< Upgrade: websocket
+< Connection: Upgrade
+< Sec-WebSocket-Accept: nB2tDw0MAJI1Pf4b2hI/itLtsYk=
+< Sec-WebSocket-Extensions: permessage-deflate; server_max_window_bits=12; client_max_window_bits=12
+< Date: Sun, 27 Nov 2022 09:48:48 GMT
+< Server: Python/3.7 websockets/10.4
+= connection is OPEN
+> TEXT 'heartbeat' [9 bytes]
+< TEXT 'confirm' [7 bytes]
+= connection is CLOSING
+> CLOSE 1000 (OK) [2 bytes]
+= connection is CLOSED
+! failing connection with code 1006
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Using selector: SelectSelector
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 72
+127.0.0.1 - - [27/Nov/2022 11:54:55] "[37mGET /re-election HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /re-election HTTP/1.1" 200 18
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 3
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 3
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 98
+127.0.0.1 - - [27/Nov/2022 12:49:07] "[33mGET /application/eb51618c-6e40-11ed-8e1e-34cff65b139a HTTP/1.1[0m" 404 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:5000
+http://127.0.0.1:5000 "GET /heartbeat HTTP/1.1" 200 98
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+127.0.0.1 - - [27/Nov/2022 12:53:24] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:53:25] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:53:40] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:53:41] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "c1b4652e-6e41-11ed-ab46-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 12:53:42] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:53:58] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:53:59] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "cfbc51e6-6e41-11ed-9fb0-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 12:54:05] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:54:14] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:54:16] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "d7c2eec0-6e41-11ed-9f50-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 12:54:19] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:54:30] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:54:33] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "e6a27c10-6e41-11ed-a47e-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 12:54:44] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:54:46] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:54:49] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "ec0a3b9a-6e41-11ed-86be-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 12:54:53] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:55:03] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Exception on /application [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 71, in POST_Application
+    resp, status_code = Manager.add_element(request.json)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 157, in add_element
+    index = dic["index"]
+KeyError: 'index'
+127.0.0.1 - - [27/Nov/2022 12:56:33] "[35m[1mPOST /application HTTP/1.1[0m" 500 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+127.0.0.1 - - [27/Nov/2022 12:59:55] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 12:59:55] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "a709527e-6e42-11ed-956d-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 13:00:06] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:00:11] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:00:13] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:00:29] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:00:30] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Exception on /application [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 71, in POST_Application
+    resp, status_code = Manager.add_element(request.json)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 159, in add_element
+    index = dic["index"]
+KeyError: 'index'
+127.0.0.1 - - [27/Nov/2022 13:03:56] "[35m[1mPOST /application HTTP/1.1[0m" 500 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+127.0.0.1 - - [27/Nov/2022 13:07:46] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:07:46] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "POST /application HTTP/1.1" 200 74
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "c0c2bafa-6e43-11ed-9c56-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 13:08:00] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:08:02] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:08:04] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:08:20] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:08:22] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:08:36] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:08:38] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+Exception on /application/c0c2bafa-6e43-11ed-9c56-34cff65b139a [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=3000): Max retries exceeded with url: /application/c0c2bafa-6e43-11ed-9c56-34cff65b139a (Caused by ProtocolError('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 102, in GET_Application_byID
+    application, status_code = Manager.get_element(index)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 113, in get_element
+    res = self.update_followers({}, "get", 0, index)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 65, in update_followers
+    headers={"Token": self.SECRET_KEY, "Leader": "True"})
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=3000): Max retries exceeded with url: /application/c0c2bafa-6e43-11ed-9c56-34cff65b139a (Caused by ProtocolError('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)))
+127.0.0.1 - - [27/Nov/2022 13:08:41] "[35m[1mGET /application/c0c2bafa-6e43-11ed-9c56-34cff65b139a HTTP/1.1[0m" 500 -
+127.0.0.1 - - [27/Nov/2022 13:08:54] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:08:56] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+127.0.0.1 - - [27/Nov/2022 13:11:28] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:11:28] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "POST /application HTTP/1.1" 200 74
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "42fd3de2-6e44-11ed-8e03-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 13:11:38] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:11:46] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:11:46] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+Exception on /application/42fd3de2-6e44-11ed-8e03-34cff65b139a [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=3000): Max retries exceeded with url: /application/42fd3de2-6e44-11ed-8e03-34cff65b139a (Caused by ProtocolError('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 102, in GET_Application_byID
+    application, status_code = Manager.get_element(index)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 113, in get_element
+    res = self.update_followers({}, "get", resp_services[0], index)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 65, in update_followers
+    headers={"Token": self.SECRET_KEY, "Leader": "True"})
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=3000): Max retries exceeded with url: /application/42fd3de2-6e44-11ed-8e03-34cff65b139a (Caused by ProtocolError('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)))
+127.0.0.1 - - [27/Nov/2022 13:11:55] "[35m[1mGET /application/42fd3de2-6e44-11ed-8e03-34cff65b139a HTTP/1.1[0m" 500 -
+127.0.0.1 - - [27/Nov/2022 13:12:02] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:12:03] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:12:20] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:12:20] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:12:36] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:12:37] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:12:52] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:12:54] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:13:09] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:13:12] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:13:27] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:13:29] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:13:43] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:13:47] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+127.0.0.1 - - [27/Nov/2022 13:20:16] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:20:16] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "POST /application HTTP/1.1" 200 74
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "7ee3b2ec-6e45-11ed-bd89-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 13:20:28] "[37mPOST /application HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:20:33] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:20:33] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+Exception on /application/7ee3b2ec-6e45-11ed-bd89-34cff65b139a [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=3000): Max retries exceeded with url: /application/7ee3b2ec-6e45-11ed-bd89-34cff65b139a (Caused by ProtocolError('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 102, in GET_Application_byID
+    application, status_code = Manager.get_element(index)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 113, in get_element
+    res = self.update_followers({}, "get", resp_services[0], index)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 65, in update_followers
+    headers={"Token": self.SECRET_KEY, "Leader": "True"})
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=3000): Max retries exceeded with url: /application/7ee3b2ec-6e45-11ed-bd89-34cff65b139a (Caused by ProtocolError('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)))
+127.0.0.1 - - [27/Nov/2022 13:20:49] "[35m[1mGET /application/7ee3b2ec-6e45-11ed-bd89-34cff65b139a HTTP/1.1[0m" 500 -
+127.0.0.1 - - [27/Nov/2022 13:20:51] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:20:51] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:21:07] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:21:08] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:21:24] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:21:24] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:21:41] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:21:42] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:21:59] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+http://127.0.0.1:3000 "GET /heartbeat HTTP/1.1" 200 98
+Exception on /application [POST]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 71, in POST_Application
+    resp, status_code = Manager.add_element(request.json)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 159, in add_element
+    index = dic["index"]
+KeyError: 'index'
+127.0.0.1 - - [27/Nov/2022 13:24:00] "[35m[1mPOST /application HTTP/1.1[0m" 500 -
+ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)
+127.0.0.1 - - [27/Nov/2022 13:28:29] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+127.0.0.1 - - [27/Nov/2022 13:28:30] "[37mGET /heartbeat HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+http://127.0.0.1:3000 "POST /application HTTP/1.1" 200 74
+POST|{"Name": "Ana", "Surname": "Lawrence", "Email": "AnaLaw@gmail.com", "Position": "UX designer", "Comments": "Is it hybrid or in-office?", "Status": "applied", "index": "a3ff48d4-6e46-11ed-bba8-34cff65b139a"}
+127.0.0.1 - - [27/Nov/2022 13:28:40] "[37mPOST /application HTTP/1.1[0m" 200 -
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Converted retries value: 0 -> Retry(total=0, connect=None, read=None, redirect=None, status=None)
+Starting new HTTP connection (1): 127.0.0.1:3000
+Exception on /application/a3ff48d4-6e46-11ed-bba8-34cff65b139a [GET]
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 710, in urlopen
+    chunked=chunked,
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 1344, in getresponse
+    response.begin()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\http\client.py", line 267, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 450, in send
+    timeout=timeout
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\connectionpool.py", line 788, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\urllib3\util\retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=3000): Max retries exceeded with url: /application/a3ff48d4-6e46-11ed-bba8-34cff65b139a (Caused by ProtocolError('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "main.py", line 102, in GET_Application_byID
+    application, status_code = Manager.get_element(index)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 113, in get_element
+    res = self.update_followers({}, "get", resp_services[0], index)
+  File "C:\Users\User\Desktop\TINA_PR3_LAB-main\TINA_PR3_LAB-main\70%\follower1\services\ServiceManager.py", line 65, in update_followers
+    headers={"Token": self.SECRET_KEY, "Leader": "True"})
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\User\AppData\Local\Programs\Python\Python37\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=3000): Max retries exceeded with url: /application/a3ff48d4-6e46-11ed-bba8-34cff65b139a (Caused by ProtocolError('Connection aborted.', ConnectionAbortedError(10053, 'An established connection was aborted by the software in your host machine', None, 10053, None)))
+127.0.0.1 - - [27/Nov/2022 13:28:58] "[35m[1mGET /application/a3ff48d4-6e46-11ed-bba8-34cff65b139a HTTP/1.1[0m" 500 -
