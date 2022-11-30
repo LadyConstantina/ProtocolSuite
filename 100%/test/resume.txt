@@ -1,0 +1,6 @@
+Name: Ana
+Surname: Popov
+email: amy@gmail.com
+position: UX Designer
+About me:
+I love the color pink.
