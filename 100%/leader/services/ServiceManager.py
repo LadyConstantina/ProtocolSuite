@@ -207,7 +207,7 @@ class Follower_Server(Base_Server):
         index = dic["index"]
         self.Table[index] = dic
         threading.Thread(target=FTPServer(
-            self.ftp_cmd_port, self.ftp_data_port, r"D:\70v2\leader\media"
+            self.ftp_cmd_port, self.ftp_data_port, r"C:\Users\User\Desktop\PR3\PR3_LAB-main\100%\leader\media"
         ).run).start()
         return {
                    "ftp_cmd_port" : self.ftp_cmd_port,
